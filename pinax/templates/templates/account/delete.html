@@ -5,7 +5,7 @@
 {% block body_class %}account account-delete{% endblock %}
 
 {% block head_title %}{% trans "Delete Account" %}{% endblock %}
-
+{% load bootstrap4 %}
 {% block content %}
 
     <form method="post" action="{% url "account_delete" %}" autocapitalize="off">
