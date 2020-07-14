@@ -1,10 +1,10 @@
-{% extends "subnav_base.html" %}
+{% extends "user/base.html" %}
 
 {% load i18n %}
 
 {% block body_class %}account{% endblock %}
 
-{% block subnav %}
+{% block content %}
 <nav class="settings-nav">
     <div class="heading">Settings</div>
     <a class="account-settings" href="{% url "account_settings" %}">
